@@ -1,7 +1,7 @@
 [package]
 name = "piz"
-version = "0.5.2"
-edition = "2021"
+version = "0.5.3"
+edition = "2024"
 authors = ["Matt Kline <matt@bitbashing.io>", "Martin Bammer <mrbm74@gmail.com>"]
 license = "Zlib"
 repository = "https://github.com/mrkline/piz-rs"
@@ -23,7 +23,7 @@ debug = true
 camino = "1.1"
 codepage-437 = "0.1"
 crc32fast = "1.4"
-flate2 = { version = "1.0", features = [
+flate2 = { version = "1.1", features = [
     "zlib-ng-compat",
 ], default-features = false }
 log = "0.4"
