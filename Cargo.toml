@@ -1,6 +1,6 @@
 [package]
 name = "piz"
-version = "0.5.3"
+version = "0.5.4"
 edition = "2024"
 authors = ["Matt Kline <matt@bitbashing.io>", "Martin Bammer <mrbm74@gmail.com>"]
 license = "Zlib"
@@ -20,9 +20,9 @@ categories = ["compression", "concurrency"]
 debug = true
 
 [dependencies]
-camino = "1.1"
+camino = "1.2"
 codepage-437 = "0.1"
-crc32fast = "1.4"
+crc32fast = "1.5"
 flate2 = { version = "1.1", features = [
     "zlib-ng-compat",
 ], default-features = false }
@@ -34,7 +34,7 @@ chrono = "0.4"
 [dev-dependencies]
 anyhow = "1.0"
 env_logger = "0.11"
-rayon = "1.10"
+rayon = "1.11"
 memmap2 = "0.9"
 stderrlog = "0.6"
 structopt = "0.3"
