@@ -1,6 +1,6 @@
 [package]
 name = "piz"
-version = "0.5.4"
+version = "0.5.5"
 edition = "2024"
 authors = ["Matt Kline <matt@bitbashing.io>", "Martin Bammer <mrbm74@gmail.com>"]
 license = "Zlib"
@@ -28,7 +28,7 @@ flate2 = { version = "1.1", features = [
 ], default-features = false }
 log = "0.4"
 thiserror = "2.0"
-memchr = "2.7"
+memchr = "2.8"
 chrono = "0.4"
 
 [dev-dependencies]

@@ -253,7 +253,7 @@ impl<'a> ZipArchive<'a> {
     /// To do that, create a [`FileTree`].
     ///
     /// [`FileTree`]: struct.FileTree.html
-    pub fn entries(&self) -> &[FileMetadata] {
+    pub fn entries(&self) -> &[FileMetadata<'_>] {
         &self.entries
     }
 
